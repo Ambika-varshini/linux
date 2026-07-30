@@ -1,0 +1,18 @@
+Day 3: Viewing & Editing Files
+Commands Practiced
+echo "text" > file — write text into a file, overwriting existing content
+echo "text" >> file — append text to a file without erasing it
+cat <file> — print the entire file content (best for short files)
+less <file> — page through long files (Space to scroll, q to quit)
+head <file> / head -N <file> — show first 10 (or N) lines
+tail <file> / tail -N <file> — show last 10 (or N) lines
+tail -f <file> — live-follow a file as new lines get added (used constantly to watch live logs during deployments)
+vim <file> — terminal text editor
+i → insert mode (start typing)
+Esc → back to normal mode
+:wq → save and quit
+:q! → quit without saving (emergency exit)
+Key Takeaways
+> vs >> is a critical distinction — using > by mistake wipes a file’s existing content instantly.
+cat floods the screen on large files; less and head/tail are the practical tools for real log files.
+tail -f is one of the most-used commands in real DevOps work — watching an application log live while deploying or debugging.
