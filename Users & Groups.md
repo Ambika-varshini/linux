@@ -1,4 +1,4 @@
-## Day 9: Users & Groups
+## Day 9: Users & Groups 
 
 ### Commands Practiced
 - `whoami` — shows current logged-in user
