@@ -1,4 +1,4 @@
-## Day 8: Permissions — chmod, rwx, Symbolic & Octal Notation
+## Day 8: Permissions — chmod, rwx, Symbolic & Octal Notation 
 
 ### Core Concept
 Every file/folder has permissions defined for 3 categories of people:
