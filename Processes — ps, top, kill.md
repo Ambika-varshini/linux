@@ -1,5 +1,5 @@
 ## Day 10: Processes — ps, top, kill
-
+ 
 ### Commands Practiced
 - `ps aux` — list all running processes with details (USER, PID, %CPU, %MEM, STAT, COMMAND)
 - `sleep <seconds> &` — start a long-running dummy process in the background (`&` = don't block the terminal)
